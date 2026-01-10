@@ -23,12 +23,6 @@ cd ~/projekt/src
 ```bash
 git clone https://github.com/Kacperrro134/projekt-aruco.git
 ```
-## Przed pierwszą kompilacją aruco_control należy ręcznie utworzyć plik w katalogu resource
-
-```bash
-cd ~/projekt
-touch resource/aruco_control
-```
 
 ## Zbuduj projekt:
 
