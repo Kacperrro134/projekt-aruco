@@ -40,7 +40,7 @@ xhost +local:docker
 ---
 
 
-## Uruchomienie projektu
+## Konfigurcja projektu
 
 ```bash
 docker run --rm -it \
@@ -53,6 +53,14 @@ docker run --rm -it \
 Jeśli kamera znajduje się pod innym urządzeniem (np. /dev/video1),
 należy odpowiednio zmienić parametr --device.
 
+---
+
+## Urochomienie projektu
+Po uruchomieniu kontenera Docker i uzyskaniu dostępu do jego terminala, należy wykonać:
+
+```bash
+ros2 launch aruco_control projekt_launch.py
+```
 ---
 
 ## Autorzy
